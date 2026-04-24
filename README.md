@@ -25,13 +25,10 @@ src/main/java/com/purva/grid07/
 
 ## How to Run
 
-### 1. Stop Windows PostgreSQL service (if installed)
-Open services.msc and stop postgresql-x64-16 service.
-
-### 2. Start Docker containers
+### 1. Start Docker containers
 docker-compose up -d
 
-### 3. Run the application
+### 2. Run the application
 Run from IntelliJ with VM option: -Duser.timezone=UTC
 
 ## API Endpoints
